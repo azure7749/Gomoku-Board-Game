@@ -35,7 +35,7 @@ public class MYFrame extends JFrame implements MouseListener {
 
         JButton jbu = new JButton("START");
         ePanel.add(jbu);
-        jf.getContentPane().setBackground(Color.lightGray);
+        jf.getContentPane().setBackground(new Color(222,184,135));
 
         jf.setVisible(true);
     }
